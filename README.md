@@ -14,17 +14,3 @@ In this phase, we use the tf-idf weighting scheme and cosine similarity to rank 
 
 To improve the efficiency of the ranked retrieval, we use champion lists to reduce the number of documents that need to be compared.
 
-## Usage
-
-To run the program, follow these steps:
-
-1. Clone the repository
-2. Install the required packages using `pip install -r requirements.txt`
-3. Run the `preprocess.py` script to preprocess the documents
-4. Run the `boolean_retrieval.py` script to retrieve documents using boolean retrieval
-5. Run the `ranked_retrieval.py` script to retrieve documents using ranked retrieval
-
-## Conclusion
-
-This project demonstrates the use of boolean and ranked retrieval methods to retrieve relevant documents from a collection of Persian news articles. The preprocessing and indexing steps are crucial for efficient retrieval, and the use of champion lists can significantly improve the performance of the ranked retrieval.
-
