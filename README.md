@@ -25,9 +25,9 @@ pip install -r requirements.txt
 
 ### 1. Positional Index Implementation
 - **Load Documents**: Start by loading your dataset of Persian news articles.
-- 
+
 - **Preprocess Documents**: Tokenize, stem, and remove stopwords to prepare the dataset for indexing.
-- 
+
 - **Create Positional Index**: Construct an index to efficiently locate words in documents.
 
 - **Answering Query & Show Result**: Perform boolean searches with phrases and NOT operators.
