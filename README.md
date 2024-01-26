@@ -1,16 +1,43 @@
-# Information Retrieval Project
 
-This project aims to retrieve relevant documents from a collection of Persian news articles using boolean and ranked retrieval methods.
+# Information Retrieval Project 🌐📖
 
-## Phase 1: Preprocessing and Boolean Retrieval
+## Introduction 📌
+Welcome to the Information Retrieval Project. This robust tool is designed for the retrieval of relevant information from a comprehensive dataset of Persian news articles. Leveraging boolean and ranked retrieval methods, it's an essential resource for those working in fields like natural language processing and information retrieval.
 
-In this phase, we preprocess the documents by tokenizing, stemming, and removing stop words. We then create a positional index to handle phrase search. Phrases can be declared using double quotes (""). The NOT operator can be declared using an exclamation mark (!).
+## Features 🌟
+- Positional Index Implementation
+- Boolean Retrieval
+- Ranked Retrieval with Cosine and Jaccard Scoring
+- Champion Lists for Efficient Searching
 
-To retrieve documents using boolean retrieval, we use the most frequent terms and phrases in the query to find relevant documents.
+## System Requirements 💻
+- Python 3.x
+- Necessary Python Libraries
 
-## Phase 2: Ranked Retrieval
+## Installation 🔧
+```bash
+git clone [repository-url]
+cd [repository-directory]
+pip install -r requirements.txt
+```
 
-In this phase, we use the tf-idf weighting scheme and cosine similarity to rank the documents based on their relevance to the query. We also use the Jaccard similarity coefficient to compare the query with the documents.
+## Usage 📘
 
-To improve the efficiency of the ranked retrieval, we use champion lists to reduce the number of documents that need to be compared.
+### 1. Positional Index Implementation
+- **Load Documents**: Start by loading your dataset of Persian news articles.
+- 
+- **Preprocess Documents**: Tokenize, stem, and remove stopwords to prepare the dataset for indexing.
+- 
+- **Create Positional Index**: Construct an index to efficiently locate words in documents.
+
+- **Answering Query & Show Result**: Perform boolean searches with phrases and NOT operators.
+
+### 2. Ranked Retrieval
+- **Cosine Score Calculation**: Rank documents based on tf-idf and cosine similarity to the query.
+  
+- **Jaccard Score Calculation**: Use Jaccard similarity for an alternate ranking method.
+  
+- **Create Champion Lists**: Build lists to optimize retrieval by focusing on top-ranked documents.
+
+- **Show Ranked Result**: Display results in order of relevance, based on the chosen scoring method.
 
