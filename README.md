@@ -1,5 +1,5 @@
 
-# Information Retrieval Project 🌐📖
+# Information Retrieval System 🌐📖
 
 ## Introduction 📌
 Welcome to the Information Retrieval Project. This robust tool is designed for the retrieval of relevant information from a comprehensive dataset of Persian news articles. Leveraging boolean and ranked retrieval methods, it's an essential resource for those working in fields like natural language processing and information retrieval.
